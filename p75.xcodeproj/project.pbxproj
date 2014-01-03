@@ -21,6 +21,10 @@
 		00B00E6218764BD600D6F349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B00E4418764BD600D6F349 /* UIKit.framework */; };
 		00B00E6A18764BD600D6F349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B00E6818764BD600D6F349 /* InfoPlist.strings */; };
 		00B00E6C18764BD600D6F349 /* p75Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B00E6B18764BD600D6F349 /* p75Tests.m */; };
+		00B00E791876562C00D6F349 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B00E751876562C00D6F349 /* baseball.png */; };
+		00B00E7A1876562C00D6F349 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B00E761876562C00D6F349 /* basket.png */; };
+		00B00E7B1876562C00D6F349 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B00E771876562C00D6F349 /* football.png */; };
+		00B00E7C1876562C00D6F349 /* volley.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B00E781876562C00D6F349 /* volley.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		00B00E6718764BD600D6F349 /* p75Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "p75Tests-Info.plist"; sourceTree = "<group>"; };
 		00B00E6918764BD600D6F349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B00E6B18764BD600D6F349 /* p75Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p75Tests.m; sourceTree = "<group>"; };
+		00B00E751876562C00D6F349 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
+		00B00E761876562C00D6F349 /* basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
+		00B00E771876562C00D6F349 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		00B00E781876562C00D6F349 /* volley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volley.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		00B00E4618764BD600D6F349 /* p75 */ = {
 			isa = PBXGroup;
 			children = (
+				00B00E751876562C00D6F349 /* baseball.png */,
+				00B00E761876562C00D6F349 /* basket.png */,
+				00B00E771876562C00D6F349 /* football.png */,
+				00B00E781876562C00D6F349 /* volley.png */,
 				00B00E4F18764BD600D6F349 /* AppDelegate.h */,
 				00B00E5018764BD600D6F349 /* AppDelegate.m */,
 				00B00E5218764BD600D6F349 /* Main.storyboard */,
@@ -228,8 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B00E7C1876562C00D6F349 /* volley.png in Resources */,
+				00B00E7B1876562C00D6F349 /* football.png in Resources */,
 				00B00E5918764BD600D6F349 /* Images.xcassets in Resources */,
+				00B00E791876562C00D6F349 /* baseball.png in Resources */,
 				00B00E4B18764BD600D6F349 /* InfoPlist.strings in Resources */,
+				00B00E7A1876562C00D6F349 /* basket.png in Resources */,
 				00B00E5418764BD600D6F349 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
